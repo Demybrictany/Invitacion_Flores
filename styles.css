@@ -379,12 +379,13 @@ h1 {
 
 .calendar-grid .event-day {
   position: relative;
-  color: #fff;
-  background: rgba(199, 95, 82, 0.86);
+  color: var(--coral-dark);
+  background: rgba(255, 255, 255, 0.96);
   border-radius: 50%;
   box-shadow:
-    0 6px 12px rgba(133, 69, 58, 0.24),
-    inset 0 0 10px rgba(255, 255, 255, 0.28);
+    0 6px 12px rgba(133, 69, 58, 0.22),
+    inset 0 0 10px rgba(199, 95, 82, 0.12);
+  text-shadow: none;
 }
 
 .countdown-title {
