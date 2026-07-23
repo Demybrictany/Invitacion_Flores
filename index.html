@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Invitación Melanie Kristel</title>
+    <title>Introduccion 15 Anos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,42 +14,78 @@
     <link rel="stylesheet" href="css/butterflies.css" />
   </head>
   <body>
-    <main class="cover" aria-label="Portada de invitación">
-      <section class="cover-card">
-        <p class="cover-overline">Mis quince años</p>
-        <h1>Melanie Kristel</h1>
-        <div class="butterfly-decor butterfly-decor-cover" aria-hidden="true">
-          <span class="decor-butterfly decor-butterfly-left">
+    <main class="cover intro-ready" aria-label="Introduccion de invitacion">
+      <section class="cover-card intro-card">
+        <div class="intro-sparkles" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="intro-butterflies" aria-hidden="true">
+          <span class="intro-butterfly intro-butterfly-one">
             <img src="mariposa-alas-abiertas.png" alt="" />
             <img src="mariposa-alas-semicerradas.png" alt="" />
             <img src="mariposa-alas-cerradas.png" alt="" />
           </span>
-          <span class="decor-butterfly decor-butterfly-center">
+          <span class="intro-butterfly intro-butterfly-two">
             <img src="mariposa-alas-abiertas.png" alt="" />
             <img src="mariposa-alas-semicerradas.png" alt="" />
             <img src="mariposa-alas-cerradas.png" alt="" />
           </span>
-          <span class="decor-butterfly decor-butterfly-right">
+          <span class="intro-butterfly intro-butterfly-three">
+            <img src="mariposa-alas-abiertas.png" alt="" />
+            <img src="mariposa-alas-semicerradas.png" alt="" />
+            <img src="mariposa-alas-cerradas.png" alt="" />
+          </span>
+          <span class="intro-butterfly intro-butterfly-four">
+            <img src="mariposa-alas-abiertas.png" alt="" />
+            <img src="mariposa-alas-semicerradas.png" alt="" />
+            <img src="mariposa-alas-cerradas.png" alt="" />
+          </span>
+          <span class="intro-butterfly intro-butterfly-five">
             <img src="mariposa-alas-abiertas.png" alt="" />
             <img src="mariposa-alas-semicerradas.png" alt="" />
             <img src="mariposa-alas-cerradas.png" alt="" />
           </span>
         </div>
-        <p class="cover-date">Sábado 5 de septiembre</p>
 
-        <a id="envelopeLink" class="envelope-link" href="invitacion.html" aria-label="Abrir invitación">
-          <span class="tap-text">Presióname</span>
-          <span class="envelope" aria-hidden="true">
-            <span class="flap"></span>
-            <span class="paper">
-              <span>M</span>
-            </span>
-          </span>
+        <div class="intro-stage" aria-hidden="true">
+          <div class="intro-shadow"></div>
+          <div class="intro-pedestal">
+            <span></span>
+          </div>
+          <div class="intro-light-ring"></div>
+          <div class="intro-envelope">
+            <div class="intro-glow"></div>
+            <div class="intro-panel">
+              <img src="Fondo1.png" alt="" />
+              <div class="intro-title">
+                <i></i>
+                <strong>15</strong>
+                <span>Años</span>
+              </div>
+            </div>
+            <div class="intro-side intro-side-left"></div>
+            <div class="intro-side intro-side-right"></div>
+            <div class="intro-pocket"></div>
+            <div class="intro-flap"></div>
+          </div>
+        </div>
+
+        <button class="audio-toggle" type="button" aria-label="Activar o silenciar sonido" aria-pressed="false">
+          Sonido
+        </button>
+        <audio id="introAudio" preload="none"></audio>
+        <a id="envelopeLink" class="intro-continue" href="invitacion.html" aria-label="Abrir invitacion">
+          Abrir invitacion
         </a>
       </section>
     </main>
 
     <script src="inicio.js"></script>
-    <script src="js/butterflies.js" data-butterfly-mode="png" data-butterfly-zone="lower"></script>
   </body>
 </html>
