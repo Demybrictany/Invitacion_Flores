@@ -82,11 +82,13 @@ body {
 h1 {
   display: inline-block;
   margin: 14px 0 8px;
+  max-width: 100%;
   color: var(--coral);
   font-family: "Great Vibes", cursive;
   font-size: 74px;
   font-weight: 400;
   line-height: 0.95;
+  white-space: nowrap;
   animation: titleSway 3.8s cubic-bezier(0.45, 0, 0.55, 1) infinite, textGlow 3s ease-in-out infinite;
 }
 
@@ -733,6 +735,7 @@ h1 {
 .closing h2 {
   margin-top: 10px;
   font-size: 58px;
+  white-space: nowrap;
 }
 
 @keyframes sectionIn {
@@ -900,7 +903,7 @@ h1 {
   }
 
   h1 {
-    font-size: 63px;
+    font-size: 54px;
   }
 
   .parents {
