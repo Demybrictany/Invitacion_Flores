@@ -4,6 +4,9 @@ const audioButton = document.querySelector(".audio-toggle");
 const introAudio = document.getElementById("introAudio");
 
 const introAssets = [
+  "sobre-01-cerrado.png",
+  "sobre-02-abierto.png",
+  "sobre-03-tarjeta-15-anos.png",
   "Fondo1.png",
   "mariposa-alas-abiertas.png",
   "mariposa-alas-semicerradas.png",
@@ -32,7 +35,11 @@ envelopeLink.addEventListener("click", (event) => {
   }, 700);
 });
 
-audioButton.addEventListener("click", async () => {
+audioButton?.addEventListener("click", async () => {
+  if (!introAudio) {
+    return;
+  }
+
   if (!introAudio.getAttribute("src")) {
     audioButton.textContent = "Sin audio";
     audioButton.setAttribute("aria-pressed", "false");
